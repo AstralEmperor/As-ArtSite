@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <!--Navigation-->
+    <nav class="navMain">
+        <div class="navMain__container container">
+        <button class="navMain__NavBtn">
+            <span class="navMain__line"></span>
+            <span class="navMain__line"></span>
+            <span class="navMain__line"></span>
+        </button>
+        <img class="navMain__icon" src="../Images/Icon-1.1.png" alt="icon.png">
+        <div class="navMain__wrap">
+        <ul class="navMain__list">
+            <li class="navMain__list-item">Home<a class="navMain__list-link" href="#/"></a></li>
+            <li class="navMain__list-item">About Us<a class="navMain__list-link" href="#/"></a></li>
+            <li class="navMain__list-item">Skills<a class="navMain__list-link" href="#/"></a></li>
+            <li class="navMain__list-item">Art<a class="navMain__list-link" href="#/"></a></li>
+            <li class="navMain__list-item">Animations<a class="navMain__list-link" href="#/"></a></li>
+            <li class="navMain__list-item">Contact<a class="navMain__list-link" href="#/"></a></li>
+        </ul>
+        <form class="navMain__form">
+            <input id="navMain__input" class="navMain__input" type="checkbox">
+        </form>
+    </div>
+  </div>
+</nav>
+<!--Section Title-->
+<section class="title">
+    <div class="title__btnWrap">
+         <button class="title__btn title__button--previous is-hidden"><span class="material-icons arrow-prev is-hidden">arrow_backward</span></button>
+         <button class="title__btn title__button--next"><span class="material-icons arrow-next">arrow_forward</span></button>
+   </div>
+ <div class="title__carousel">
+    <img class="title__img current-slide" src="../Images/digital-art-fantasy-art-colorful-space-art-wallpaper-preview.jpg" alt="bg-1">
+    <img loading="lazy" class="title__img" src="../Images/fantasy-landscape-building-moon-wallpaper-preview.jpg" alt="bg-2">
+    <img loading="lazy" class="title__img" src="../Images/mountain-scenery-globe-planet-wallpaper-preview.jpg" alt="bg-3">
+    <img loading="lazy" class="title__img" src="../Images/sci-fi-landscape-floating-islands-planet-wallpaper-thumb.jpg" alt="bg-4">
+ </div>
+    <div class="title__container">
+        <div class="container">      
+        <div class="title__text-wrap">
+            <p class="title__text">"In the sea of life, every move we make is an art"</p>
+            <a class="title__button button">To Art<span class="material-icons">arrow_forward</span></a>
+        </div>
+        <div class="title__ul">
+            <button class="title__carousel-list current-slide"></button>
+            <button class="title__carousel-list"></button>
+            <button class="title__carousel-list"></button>
+            <button class="title__carousel-list"></button>
+        </div>
+     </div>
+   </div>
+</section>
+<!--Section Abous Us-->
+<section class="aboutUs">
+    <div class="aboutUs__container container">
+     <div class="aboutUs__ImgContainer">
+        <img loading="lazy" class="aboutUs__img" src="../Images/Marko_K..jpg" alt="aboutUs.png">
+    </div>
+        <div class="aboutUs__text-wrap">
+            <h2 class="aboutUs__h2">About Us</h2>
+            <p class="aboutUs__text">A single person bussiness. Owned and developed by - <i>Marko Kovačević</i></p>
+            <p class="aboutUs__text">We produce stunning and realistic art</p>
+            <a class="aboutUs__btn button">Learn More<span class="material-icons">arrow_forward</span></a>
+        </div>
+    </div>
+</section>
+<!--Section Products-->
+
+    <script src="../JS/darkmode.js"></script>
+    <script src="../JS/carousel.js"></script>
+</body>
+</html>
